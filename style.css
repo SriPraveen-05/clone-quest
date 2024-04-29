@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+   font-weight: 600;
+}
+body{
+    background-color: black;
+}
+button{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 50%;
+    font-size:20px;
+    top: 50px;
+    color: white;
+    cursor: pointer;
+    background-color : black;
+    box-shadow: 5px 5px 5px 10px grey;
+}
+nav h2{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.content h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 100px;
+}
+.content h1 span{
+    font-size: 40px;
+    margin-left: 5px;
+}
+.content2 h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 20px;
+}
+.rotate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    animation: rotateAnimation 4s linear infinite; 
+    margin-left: 50%;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.right-align {
+    text-align: right; 
+    bottom: 50%;
+}
+.container p{
+    color: white;
+}
+.container {
+    position: relative; /* Ensure container is positioned */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.upper-right {
+    position: absolute; /* Position the paragraph absolutely */
+    top: 0; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 20%;
+    float: right;
+    color: white;
+    background-color: white;
+}
+
+img {
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
+
+}
+h1
+
+.one:hover {
+    color: rgb(13, 0, 128);
+}
+
+.two:hover {
+    color: green;
+}
+
+.three:hover {
+    color: orange;
+}
+
+.four:hover {
+    color: pink;
+}
+
+.five:hover {
+    color: violet;
+}
+
